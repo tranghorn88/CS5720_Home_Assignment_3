@@ -51,7 +51,8 @@ NER or Named Entity Recognition identifies real-world objects such as people, pl
 Meanwhile, POS or Part-of-Speech tagging assigns grammatical roles to words, such as noun, verb, adjective. For example: "Obama" → NNP (proper noun), "won" → VBD (verb, past tense). 
 POS tagging is syntactic; NER is semantic.
 
-2. Financial institutions such as banks, hedge funds, and traders use NER to extract entities such as company names, stock tickers, currencies, dates, and monetary values, etc. from breaking news articles. In these cases, NER is applied to real-time news feeds to identify: Organizations (e.g., "Apple Inc."), Monetary values( e.g., "$3.2 billion"), Dates( e.g., "May 17th, 2024"), Locations( e.g., "New York Stock Exchange"). This structured information is then fed into automated trading algorithms or risk assessment dashboards. 
+2. Financial institutions such as banks, hedge funds, and traders use NER to extract entities such as company names, stock tickers, currencies, dates, and monetary values, etc. from breaking news articles. In these cases, NER is applied to real-time news feeds to identify: Organizations (e.g., "Apple Inc."), Monetary values( e.g., "$3.2 billion"), Dates( e.g., "May 17th, 2024"), Locations( e.g., "New York Stock Exchange"). This structured information is then fed into automated trading algorithms or risk assessment dashboards.
+   
   Google, Alexa, and Siri use NER to understand user queries more effectively by identifying key people, places, dates, and products. For example, NER helps isolate the core entities in natural language queries:
   "When was Barack Obama born?" → PERSON
   "What's the weather in Paris?" → GPE (geo-political entity)
